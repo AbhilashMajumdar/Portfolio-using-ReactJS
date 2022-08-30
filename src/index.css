@@ -1,0 +1,418 @@
+/* responsive navbar  */
+/* for 1024px */
+
+@media only screen and (max-width: 1024px) {
+    .navbar .navbar-brand {
+        font-size: 40px !important;
+    }
+
+    .navbar .nav-link {
+        margin: 0 0 !important;
+    }
+}
+
+/* for 768px  */
+@media only screen and (max-width: 768px) {
+    .navbar .navbar-brand {
+        font-size: 50px !important;
+    }
+
+    .navbar .navbar-nav {
+        height: 93vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .nav-item {
+        padding: 20px 40px;
+    }
+
+    .navbar .nav-link {
+        font-size: 30px !important;
+    }
+}
+
+/* for 480px */
+@media only screen and (max-width: 480px) {
+    .navbar .navbar-nav {
+        height: 90vh !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        font-size: 20px !important;
+    }
+
+    .navbar .hamburger {
+        margin-bottom: 10px !important;
+    }
+
+    .navbar .nav-item {
+        padding: 0;
+        margin-top: 25px;
+    }
+}
+
+
+/* responsive design for home  */
+/* 1024px  */
+@media only screen and (max-width: 1024px) {
+    .home-container .home-head h1 {
+        font-size: 50px !important;
+    }
+}
+
+/* for 480px  */
+@media only screen and (max-width: 480px) {
+
+    .home-container {
+        height: 84vh !important;
+    }
+
+    .home-container .home-head h1 {
+        font-size: 35px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .home-container .home-body h3 {
+        font-size: 27px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .home-container .home-body .typed-text {
+        font-size: 27px !important;
+        letter-spacing: 0 !important;
+    }
+
+    .home-container .home-social a {
+        padding: 10px !important;
+        font-size: 25px !important;
+    }
+
+    .home-container .home-btn button {
+        padding: 5px 15px !important;
+    }
+}
+
+
+/* responsive for about  */
+@media only screen and (max-width: 1024px) {
+    .about-container .about-head {
+        margin: 30px 0 !important;
+    }
+
+    .about-container .about-info {
+        margin: 0;
+    }
+
+    .about-container .about-head h1 {
+        font-size: 40px !important;
+    }
+
+    .about-container .about-img img {
+        width: 180px !important;
+    }
+
+    .about-container .about-data p {
+        font-size: 15px !important;
+    }
+
+    .about-container .about-info .about-key {
+        font-size: 16px !important;
+    }
+
+    .about-container .about-info .about-value {
+        font-size: 16px !important;
+    }
+}
+
+/* 768px  */
+@media only screen and (max-width: 768px) {
+    .about-container .about-img-row {
+        justify-content: space-evenly !important;
+    }
+
+    .about-container .about-img img {
+        width: 200px !important;
+    }
+
+    .about-container .about-data p {
+        font-size: 16px !important;
+    }
+
+    .about-container .about-info .about-key {
+        font-size: 18px !important;
+    }
+
+    .about-container .about-info .about-value {
+        font-size: 18px !important;
+    }
+}
+
+/* 480px  */
+@media only screen and (max-width: 480px) {
+    .about-container .about-img {
+        flex-basis: content;
+    }
+
+    .about-container .about-img img {
+        width: 250px !important;
+    }
+
+    .about-container .about-info .about-key {
+        font-size: 16px !important;
+    }
+
+    .about-container .about-info .about-value {
+        font-size: 16px !important;
+    }
+
+    .about-container .about-data {
+        margin-top: 50px;
+        padding: 0 10px !important;
+    }
+
+    .about-container .about-info .col-lg-3 {
+        padding: 0 !important;
+    }
+}
+
+/* responsive for work  */
+@media only screen and (max-width: 768px) {
+    .work-container .work-info {
+        margin-bottom: 140px !important;
+    }
+
+    .work-container .work-head {
+        margin: 65px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .work-container .work-info {
+        margin-bottom: 50px !important;
+    }
+
+    .work-container .work-head {
+        margin: 20px 0 !important;
+    }
+
+    .work-container .work-head h1 {
+        font-size: 40px !important;
+    }
+}
+
+/* responsive for education  */
+@media only screen and (max-width: 768px) {
+    .education-container .education-head {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .education-container .education-head {
+        margin: 20px 0 !important;
+    }
+
+    .education-container .education-head h1 {
+        font-size: 40px !important;
+    }
+}
+
+
+/* responsive skills  */
+@media only screen and (max-width: 768px) {
+
+    .skill1,
+    .skill2,
+    .skills5,
+    .skill6,
+    .skill9,
+    .skill10 {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .skills-container .skills-head {
+        margin: 30px 0 !important;
+    }
+
+    .skills-container .skills-head h1 {
+        font-size: 40px !important;
+    }
+
+    .skills-container .card img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .skill1,
+    .skill2,
+    .skills5,
+    .skill6,
+    .skill9,
+    .skill10 {
+        margin-bottom: 45px;
+    }
+
+    .skills-container .card h5 {
+        font-size: 17px;
+    }
+}
+
+/* responsive for certifications */
+@media only screen and (max-width: 480px) {
+    .certificate-container .certificate-head {
+        margin: 20px 0 !important;
+    }
+
+    .certificate-container .certificate-head h1 {
+        font-size: 38px !important;
+    }
+}
+
+/* responsive for achievement  */
+@media only screen and (max-width: 1024px) {
+    .achievement-container .achievement-info .card img {
+        width: 230px !important;
+        height: 150px !important;
+    }
+
+    .achievement-container h3 {
+        font-size: calc(1.0rem + .6vw) !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .achievement-container .achievement-info .card img {
+        width: 250px !important;
+        height: 180px !important;
+    }
+
+    .achievement-container h3 {
+        font-size: calc(1.4rem + .6vw) !important;
+    }
+
+    .achievement-container .achievement-info {
+        margin-bottom: 60px;
+    }
+
+    .achievement-container .achievement-head {
+        margin: 25px 0 !important;
+    }
+
+    .achievement-container .achievement-head h1 {
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .achievement-container h3 {
+        font-size: calc(1.4em + 0vw) !important;
+    }
+
+    .achievement-container .achievement-info .card img {
+        width: 200px !important;
+        height: 120px !important;
+    }
+
+    .achievement-container .card:hover {
+        transform: scale(0, 0);
+    }
+}
+
+
+/* responsive for projects  */
+@media only screen and (max-width: 1024px) {
+    .project-container .col-md-4 {
+        width: 39.333333% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project-container .col-md-4 {
+        width: 35.333333% !important;
+    }
+
+    .project-container .project-head {
+        margin: 60px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-container .col-10 {
+        flex: 0 0 auto;
+        width: 83.33333333% !important;
+    }
+
+    .project-container .record1,
+    .record3 {
+        margin-bottom: 80px;
+    }
+
+    .project-container .project-head {
+        margin: 20px 0 !important;
+    }
+
+    .project-container .project-head h1 {
+        font-size: 40px !important;
+    }
+}
+
+
+/* responsive for contact  */
+@media only screen and (max-width: 768px) {
+    .contact-container .contact-head {
+        margin: 60px 0 !important;
+    }
+
+    .contact-container .contact-info {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-container .contact-head {
+        margin: 20px 0 !important;
+    }
+
+    .contact-container .contact-head h1 {
+        font-size: 40px !important;
+    }
+
+
+    .contact-container .contact-info {
+        margin-bottom: 0 !important;
+    }
+}
+
+
+/* responsive for page  */
+@media only screen and (max-width: 480px) {
+    .page-container h1 {
+        font-size: 35px !important;
+    }
+
+    .page-container h3 {
+        color: #fff;
+        font-size: 26px !important;
+    }
+}
+
+
+/* responsive arrow  */
+@media only screen and (max-width: 480px) {
+    .arrow {
+        bottom: 0px !important;
+        right: 0px !important;
+    }
+
+    .arrow button {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}

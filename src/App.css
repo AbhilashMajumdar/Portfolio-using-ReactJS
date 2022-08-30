@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* This is for name logo  */
+/* font-family: 'Great Vibes', cursive;  */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Merriweather', serif; */
+/* /This is for h1 to h6  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+/* font-family: 'Kurale', serif; */
+/* This is for react-element  */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* font-family: 'Abril Fatface', cursive; */
+/* This is for component heading  */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* This is for all paragraphs  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.row,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* design for navbar  */
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar .navbar-brand {
+  color: #f2ab00 !important;
+  font-size: 50px;
+  font-family: 'Great Vibes', cursive;
+  padding: 0 !important;
+}
+
+.navbar .navbar-brand:hover {
+  color: #fff !important;
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 0;
+  color: #f2ab00 !important;
+  /* border-bottom: 3px solid black; */
+}
+
+.navbar-nav>li>.nav-link.active:focus {
+  border-bottom: 3px solid #f2ab00;
+  color: #fff !important;
+}
+
+.navbar-nav>li>.nav-link:hover {
+  border-bottom: 3px solid #f2ab00;
+  color: #fff !important;
+}
+
+
+/* design for home */
+.home-container {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container .home-head h1 {
+  font-size: 60px;
+  color: #f2ab00;
+  letter-spacing: 0.3ch;
+  font-family: 'Merriweather', serif;
+}
+
+.home-container .home-body h3 {
+  font-size: 35px;
+  color: #f2ab00;
+  letter-spacing: 0.2ch;
+  font-family: 'Merriweather', serif;
+}
+
+.home-container .home-body .typed-text {
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 0.2ch;
+}
+
+.home-container .home-social a {
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.home-container .home-social a:hover {
+  color: #f2ab00;
+}
+
+.home-container .home-btn button {
+  padding: 10px 30px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #f2ab00;
+  border-radius: 25px;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+}
+
+.home-container .home-btn button:hover {
+  border: 2px solid #fff;
+  color: black;
+  background-color: #f2ab00;
+}
+
+
+/* design for about */
+.about-container .about-head {
+  margin: 50px 0;
+}
+
+.about-container .about-info {
+  margin: 30px 0;
+}
+
+.about-container .about-head h1 {
+  font-size: 50px;
+  color: #f2ab00;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.about-container .about-img img {
+  width: 250px;
+  border-radius: 25px;
+}
+
+.about-container .about-data p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.about-container .about-info .about-key {
+  color: #f2ab00;
+  font-size: 18px;
+}
+
+.about-container .about-info .about-value {
+  color: #fff;
+  font-size: 18px;
+}
+
+
+/* design for work  */
+.work-container .work-head {
+  margin: 30px 0;
+}
+
+.work-container .work-info {
+  margin-bottom: 40px;
+}
+
+.work-container .work-head h1 {
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.work-container .vertical-timeline-element-content {
+  background: transparent !important;
+}
+
+.work-container .vertical-timeline-element {
+  color: #fff;
+}
+
+.work-container .vertical-timeline-element h5 {
+  color: #f2ab00;
+}
+
+.work-container .vertical-timeline-element h6,
+p {
+  color: #fff;
+}
+
+.work-container .vertical-timeline-element-date {
+  color: #fff;
+  opacity: 1;
+}
+
+/* design for education  */
+.education-container .education-head {
+  margin: 30px 0;
+}
+
+.education-container .education-info {
+  margin-bottom: 40px;
+}
+
+.education-container .education-head h1 {
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.education-container .vertical-timeline-element-content {
+  background: transparent !important;
+}
+
+.education-container .vertical-timeline-element {
+  color: #fff;
+}
+
+.education-container .vertical-timeline-element h5 {
+  color: #f2ab00;
+}
+
+.education-container .vertical-timeline-element h6,
+p {
+  color: #fff;
+}
+
+.education-container .vertical-timeline-element-date {
+  color: #fff;
+  opacity: 1;
+}
+
+
+/* design for skills  */
+.skills-container .skills-head {
+  margin: 30px 0;
+}
+
+.skills-container .skills-head h1 {
+  color: #f2ab00;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+
+.skills-container .card h5 {
+  margin: 0;
+}
+
+
+.skills-container .card {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container .card img {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.skills-container .card:hover {
+  transform: scale(1.2, 1.2);
+}
+
+
+/* design for ceritifications  */
+.certificate-container .certificate-head {
+  margin: 30px 0;
+}
+
+.certificate-container .certificate-head h1 {
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.certificate-container .vertical-timeline-element-content {
+  background: transparent !important;
+}
+
+.certificate-container .vertical-timeline-element {
+  color: #fff;
+}
+
+.certificate-container .vertical-timeline-element h5 {
+  color: #f2ab00;
+}
+
+.certificate-container .vertical-timeline-element h6, a {
+  color: #fff;
+}
+
+.certificate-container .vertical-timeline-element-date {
+  color: #fff;
+  opacity: 1;
+}
+
+
+
+/* design for achievement  */
+.achievement-container .achievement-head {
+  margin: 60px 0;
+}
+
+.achievement-container .achievement-head h1 {
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.achievement-container .achievement-info .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement-container .achievement-info .card img {
+  width: 280px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+.achievement-container .achievement-info .card p {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+/* .achievement-container .achievement-info .card h3 {
+  color: #f2ab00;
+} */
+
+.achievement-container .card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+
+/* design for projects  */
+.project-container .project-head {
+  margin: 30px 0;
+}
+
+.project-container .project-head h1 {
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.project-container .card:hover {
+  transform: scale(1.2, 1.2);
+}
+
+
+/* design for contact */
+.contact-container .contact-head{
+  margin: 30px 0;
+}
+
+.contact-container .contact-head h1{
+  color: #f2ab00;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.contact-container form label{
+  color: #f2ab00;
+  font-size: 20px !important;
+  margin-bottom: 10px;
+}
+
+
+/* design for page not found  */
+.page-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-container h1{
+  color: #f2ab00;
+  font-size: 60px;
+}
+
+.page-container h3{
+  color: #fff;
+  font-size: 40px;
+}
+
+
+/* design for arrow  */
+.arrow{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.arrow button{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f2ab00;
+  color: #fff;
+}
+
+.arrow button:hover{
+  background-color: #fff;
+  color: #f2ab00;
+}
