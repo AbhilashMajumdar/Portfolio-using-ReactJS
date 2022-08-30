@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio-using-ReactJS/static/css/main.5cdf4ceb.css",
+    "main.js": "/Portfolio-using-ReactJS/static/js/main.f099fb32.js",
+    "static/media/hackerank-logo.png": "/Portfolio-using-ReactJS/static/media/hackerank-logo.30b7978c067741383864.png",
+    "static/media/Abhilash_Majumdar.pdf": "/Portfolio-using-ReactJS/static/media/Abhilash_Majumdar.592b98fcdf71fbcb6f01.pdf",
+    "static/media/Cognizant_Logo.jpg": "/Portfolio-using-ReactJS/static/media/Cognizant_Logo.dd9b02473f89473faa43.jpg",
+    "static/media/reactjs.png": "/Portfolio-using-ReactJS/static/media/reactjs.809fed23bcdd686de66e.png",
+    "static/media/nodejs.png": "/Portfolio-using-ReactJS/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/java.png": "/Portfolio-using-ReactJS/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c_plus_plus.png": "/Portfolio-using-ReactJS/static/media/c_plus_plus.24a8f93854ab092f17a7.png",
+    "static/media/expressjs.png": "/Portfolio-using-ReactJS/static/media/expressjs.fde8826b2a1c6c27df91.png",
+    "static/media/pic.jpg": "/Portfolio-using-ReactJS/static/media/pic.89e777f8b1e3cd4c14f3.jpg",
+    "static/media/mongodb.png": "/Portfolio-using-ReactJS/static/media/mongodb.3267327599a9011812b1.png",
+    "static/media/github.png": "/Portfolio-using-ReactJS/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/logo-dark.webp": "/Portfolio-using-ReactJS/static/media/logo-dark.7f892ee9ba1c06038e65.webp",
+    "static/media/css.png": "/Portfolio-using-ReactJS/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/Portfolio-using-ReactJS/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/javascript.png": "/Portfolio-using-ReactJS/static/media/javascript.3dfb665e058d08c99f28.png",
+    "index.html": "/Portfolio-using-ReactJS/index.html",
+    "main.5cdf4ceb.css.map": "/Portfolio-using-ReactJS/static/css/main.5cdf4ceb.css.map",
+    "main.f099fb32.js.map": "/Portfolio-using-ReactJS/static/js/main.f099fb32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cdf4ceb.css",
+    "static/js/main.f099fb32.js"
+  ]
+}
